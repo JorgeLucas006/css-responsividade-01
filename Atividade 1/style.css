@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  font-family: Verdana;
+}
+
+.fl{
+  float: left;
+  margin-right: 2rem;
+}
+
+.fr{
+  float: right;
+  margin-left: 2rem;
+}
+
+header {
+  padding: 1rem 0;
+  width: 100%;
+  background: aquamarine;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 800px;
+}
+
+main section{
+  margin-top: 2rem;
+}
+
+main section p {
+  padding-top: .8rem;
+  font-size: 14px;
+  text-align: justify;
+}
+
+@media (max-width: 1000px){
+
+  img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  main {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 3rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    padding: 0 3rem;
+  }
+
+}

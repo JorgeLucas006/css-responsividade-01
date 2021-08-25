@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Varela+Round&display=swap');
+
+
+* {
+  margin: 0;
+  font-family: Nunito;
+  color: #fff;
+}
+
+body {
+  background: #5F7285;
+}
+
+.fl{
+  float: left;
+  margin-right: 2rem;
+}
+
+.fr{
+  float: right;
+  margin-left: 2rem;
+}
+
+h1 {
+  font-size: 105px;
+  opacity: 50%;
+}
+
+img {
+  width: 50%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #29323A;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section{
+  margin-top: 2rem;
+  max-width: 800px;
+}
+
+main section h2 {
+  font-family: 'Varela Round';font-size: 22px;
+}
+
+main section p {
+  padding-top: .8rem;
+  text-align: justify;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: .5rem;
+}
+
+footer a {
+  font-size: 13px;
+}
+
+@media (max-width: 1000px){
+
+  .fix {
+    clear: both;
+  }
+
+  .centralizar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .centralizar img {
+    width: 100%;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  main {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 3rem;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+    padding: 0 3rem;
+  }
+
+}
